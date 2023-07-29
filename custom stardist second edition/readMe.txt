@@ -1,1 +1,1 @@
-Final version of the custom Stardist model we created.
+Final version of a custom stardist model we created during July.
