@@ -19,7 +19,7 @@ In the end, we were able to obtain predictions of up to 99.3% accuracy.
 
 
 Made by the DeVision Team
--------------------------
+=========================
 
 Dr. Peter Wolenski
 ------------------
