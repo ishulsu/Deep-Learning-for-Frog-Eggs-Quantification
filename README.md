@@ -1,13 +1,15 @@
-This repository stores three separate models our team has made over the Summer of 2023 in Math 4997.
-The Starter Model was made from scratch with what we had learned. The model worked, but did not predict well to our testing images.
-A team member had found a working model with data similar to ours. This library is called StarDist. https://github.com/stardist/stardist
-We then used StarDist to develop our own working version. Our first version of the model contained only 17 images of data and was suprisingly effective at predicting.
-The second version is refined and contains a total of 180 images of data. We added in testing code for metrics to determine how well the model was working on our data.
+Over the course of the summer semester in 2023, our team has worked diligently in Math 4997 to develop a model for counting frog eggs for the lab at AGGRC https://aggrc.com. We embarked on this journey with the fundamental knowledge we'd gained at the beginning of the summer, which led to the creation of the initial model, referred to as the "Starter Model". Despite being built from the ground up, this model demonstrated limitations when it came to the accuracy of predicting our test images.
+
+Sometime after the end of June, one of our team members stumbled upon an existing model library named "StarDist" that was tailored to handle data remarkably similar to ours. You can find more about it here: https://github.com/stardist/stardist. We decided to pursue this library in an effor to solve our problem of counting eggs.
+
+The first iteration of our model, which incorporated a dataset of merely 17 images, yielded surprising results in terms of its predictive capabilities. Encouraged by this outcome, we set out to further enhance and refine the model. The second, more refined iteration of the model utilizes a significantly larger dataset, with a total of 180 images.
+
+To gauge the efficacy of our model, we introduced testing code designed to compute specific performance metrics. These metrics provide quantitative insight into the performance of the model on our dataset. They serve as an invaluable tool in our ongoing efforts to understand, validate, and optimize our model's predictive abilities.
 
 Made by the DeVision Team under Dr. Wolenski's guidance.
 
-LSU Math Consultation Clinic
-https://www.math.lsu.edu/courses/capstone_course
-
 Led by Dr. Peter Wolenski
 wolenski@math.lsu.edu
+
+LSU Math Consultation Clinic
+https://www.math.lsu.edu/courses/capstone_course
