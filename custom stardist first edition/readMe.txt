@@ -1,1 +1,1 @@
-Initial custom stardist model we created at the beginning of June.
+Initial custom stardist model we created at the beginning of July.
