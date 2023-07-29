@@ -18,12 +18,14 @@ In the end, we were able to obtain predictions of up to 99.3% accuracy.
 ---
 
 
-Made by the DeVision Team.
---------------------------
+Made by the DeVision Team
+-------------------------
 
-Led by Dr. Peter Wolenski: wolenski@math.lsu.edu
+Dr. Peter Wolenski
+------------------
+wolenski@math.lsu.edu
 
-Math Graduate Students:
+Mathematics Graduate Students:
 -----------------------
 
 David Agbolade, Gyaneshwar Agrahari, Kiran Bist, Hayden Bromley, Jackson Knox, Monika Pandey, Iswarya Sitiraju, Gowri Priya Sunkara
