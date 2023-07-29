@@ -25,11 +25,11 @@ Narek Bayramyan, Addison DeBlieux, Rohan Durgum, Atif Iqbal, Steph Moore, Artem 
 
 LSU Math Consultation Clinic: https://www.math.lsu.edu/courses/capstone_course
 
-<table width="100%">
+<table>
   <tr>
-    <td> <img src="https://github.com/skylarwilson/Math4997-Summer-2023/assets/136635193/5a2981ae-fec1-4084-9024-9346c6585d48" alt="Image 1" width="400"></td>
+    <td> <img src="logo/lsulogo.png" alt="Image 1" width="400"></td>
     <td width="100%"></td>
-    <td> <img src="https://github.com/skylarwilson/Math4997-Summer-2023/assets/136635193/a3b3ee75-1a57-40a7-87e5-9d3b4b49ed3f" alt="Image 2" width="200"></td>
+    <td> <img src="logo/mcclogo.gif" alt="Image 2" width="200"></td>
   </tr>
 </table>
 
