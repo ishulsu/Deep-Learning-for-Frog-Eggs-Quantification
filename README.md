@@ -1,5 +1,4 @@
-DeepFE: Deep Learning for Frog Eggs Quantification
-==================================================
+# DeepFE: Deep Learning for Frog Eggs Quantification
 
 Over the course of the summer semester in 2023, the DeVision team has worked diligently in Math 4997 to develop a model to count frog eggs for the lab at AGGRC https://aggrc.com. Our mission was to develop software capable of accurately counting frog eggs in images using deep learning.
 
@@ -17,21 +16,22 @@ In the end, we were able to obtain predictions of up to 99.3% accuracy.
 
 ---
 
+# Made by the Summer 2023 DeVision Team
 
-Made by the DeVision Team
-=========================
+https://github.com/devision2023/Summer-Research-
 
+## CEO
 Dr. Peter Wolenski
-------------------
+
 wolenski@math.lsu.edu
 
-Mathematics Graduate Students:
------------------------
+## Mathematics Graduate Students:
+
 
 David Agbolade, Gyaneshwar Agrahari, Kiran Bist, Hayden Bromley, Jackson Knox, Monika Pandey, Iswarya Sitiraju, Gowri Priya Sunkara
 
-Undergraduate Students:
------------------------
+## Undergraduate Students:
+
 
 Narek Bayramyan, Addison DeBlieux, Rohan Durgum, Atif Iqbal, Steph Moore, Artem Mukhamedzianov, Sunella Ramnath, Sahithi Rampally, Houston Smith, Jamar Whitfield, Skylar Wilson
 <br>
