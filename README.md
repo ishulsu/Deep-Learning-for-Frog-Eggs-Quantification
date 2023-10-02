@@ -1,18 +1,25 @@
 # DeepFE: Deep Learning for Frog Eggs Quantification
 
-Over the course of the summer semester in 2023, the DeVision team has worked diligently in Math 4997 to develop a model to count frog eggs for the lab at AGGRC https://aggrc.com. Our mission was to develop software capable of accurately counting frog eggs in images using deep learning.
+The Aquatic Department at LSU (AGGRC), works to address the lack of standardization and reproducibility in cryopreservation for aquatic species. Hence, the statistics of the eggs to be preserved is important for record. Our mission was to develop software capable of accurately counting frog eggs in images using deep learning with varying image sizes.
 
-We embarked on this journey with the fundamental knowledge we'd gained at the beginning of the summer, which led to the creation of the initial model, referred to as the "Starter Model". This model demonstrated limitations when it came to the accuracy of predicting our test images.
+<img src = "https://github.com/ishulsu/Deep-Learning-for-Frog-Eggs-Quantification/blob/main/images/236.jpg" width = "50%" height="45%" hspace="30" /> <img src = "https://github.com/ishulsu/Deep-Learning-for-Frog-Eggs-Quantification/blob/main/images/IMG_7008.jpeg" width = "28%" height = "50%" /> 
 
-In early July, one of our team members stumbled upon an existing model library named "StarDist" that was tailored to handle data similar to ours. You can find more about it here: https://github.com/stardist/stardist. We decided to pursue this library in an effort to solve our problem of counting eggs.
+To address this, we used the architecture ``StarDist" , which has  U-Net neural network as its backbone, followed by the  Non-Maximum Suppression algorithm.  The following are references for our work.
+- Uwe Schmidt, Martin Weigert, Coleman Broaddus, and Gene Myers.  
+[*Cell Detection with Star-convex Polygons*](https://arxiv.org/abs/1806.03535).  
+International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), Granada, Spain, September 2018.
 
-The first iteration of our model, which incorporated a dataset of merely 17 images, yielded surprising results in terms of its predictive capabilities. Encouraged by this outcome, we set out to further enhance and refine the model. The second, more refined iteration of the model utilizes a significantly larger dataset, with a total of 180 images.
+- Martin Weigert, Uwe Schmidt, Robert Haase, Ko Sugawara, and Gene Myers.  
+[*Star-convex Polyhedra for 3D Object Detection and Segmentation in Microscopy*](http://openaccess.thecvf.com/content_WACV_2020/papers/Weigert_Star-convex_Polyhedra_for_3D_Object_Detection_and_Segmentation_in_Microscopy_WACV_2020_paper.pdf).  
+The IEEE Winter Conference on Applications of Computer Vision (WACV), Snowmass Village, Colorado, March 2020
 
-To gauge the efficacy of our model, we introduced testing code designed to compute specific performance metrics. These metrics provide quantitative insight into the performance of the model on our dataset. They serve as an invaluable tool in our ongoing efforts to understand, validate, and optimize our model's predictive abilities.
+### Training and Testing
+Training on 144 images and testing on 36 images yielded us an accuracy upto 98 % accuracy.  
 
-In the end, we were able to obtain predictions of up to 99.3% accuracy.
+\cref{predictions} shows the prediction on a test image with the total count of 2006 eggs and the model predicted 1992 eggs, which accounts for 99.3\% of the actual count.
 
-![Image 0](images/prediction_0.png)
+<img src = "https://github.com/ishulsu/Deep-Learning-for-Frog-Eggs-Quantification/blob/main/images/2006count.png" /><img src = "https://github.com/ishulsu/Deep-Learning-for-Frog-Eggs-Quantification/blob/main/images/prediction_0.png"/>
+
 
 ---
 
