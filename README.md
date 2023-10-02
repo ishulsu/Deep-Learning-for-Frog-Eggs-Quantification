@@ -18,7 +18,7 @@ Training on 144 images and testing on 36 images yielded us an accuracy upto 98 %
 
 \cref{predictions} shows the prediction on a test image with the total count of 2006 eggs and the model predicted 1992 eggs, which accounts for 99.3\% of the actual count.
 
-<img src = "https://github.com/ishulsu/Deep-Learning-for-Frog-Eggs-Quantification/blob/main/images/2006count.png" /><img src = "https://github.com/ishulsu/Deep-Learning-for-Frog-Eggs-Quantification/blob/main/images/prediction_0.png"/>
+<img src = "https://github.com/ishulsu/Deep-Learning-for-Frog-Eggs-Quantification/blob/main/images/2006count.png" height = "50%" width = "49%" /><img src = "https://github.com/ishulsu/Deep-Learning-for-Frog-Eggs-Quantification/blob/main/images/prediction_0.png" height= "51%" width = "50%"/>
 
 
 ---
