@@ -16,10 +16,9 @@ The IEEE Winter Conference on Applications of Computer Vision (WACV), Snowmass V
 ### Training and Testing
 Training on 144 images and testing on 36 images yielded us an accuracy upto 98 % accuracy.  
 
-\cref{predictions} shows the prediction on a test image with the total count of 2006 eggs and the model predicted 1992 eggs, which accounts for 99.3\% of the actual count.
+The following is a test image with the total count of 2006 eggs and the predicted count is 1992 eggs, which accounts for 99.3\% of the actual count.
 
-<img src = "https://github.com/ishulsu/Deep-Learning-for-Frog-Eggs-Quantification/blob/main/images/2006count.png" height = "50%" width = "49%" /><img src = "https://github.com/ishulsu/Deep-Learning-for-Frog-Eggs-Quantification/blob/main/images/prediction_0.png" height= "51%" width = "50%"/>
-
+<img alt="Input Image" src = "https://github.com/ishulsu/Deep-Learning-for-Frog-Eggs-Quantification/blob/main/images/2006count.png" title="Input Image"  height = "50%" width = "49%" />  <img src = "https://github.com/ishulsu/Deep-Learning-for-Frog-Eggs-Quantification/blob/main/images/prediction_0.png" height= "51%" width = "50%"/>
 
 ---
 
