@@ -16,9 +16,21 @@ The IEEE Winter Conference on Applications of Computer Vision (WACV), Snowmass V
 ### Training and Testing
 Training on 144 images and testing on 36 images yielded us an accuracy upto 98 % accuracy.  
 
-The following is a test image with the total count of 2006 eggs and the predicted count is 1992 eggs, which accounts for 99.3\% of the actual count.
+The image on the left is a test image with the total count of 2006 eggs and the image on the right is the prediction with predicted count of 1992 eggs, which accounts for 99.3\% of the actual count.
 
 <img alt="Input Image" src = "https://github.com/ishulsu/Deep-Learning-for-Frog-Eggs-Quantification/blob/main/images/2006count.png" title="Input Image"  height = "50%" width = "49%" />  <img src = "https://github.com/ishulsu/Deep-Learning-for-Frog-Eggs-Quantification/blob/main/images/prediction_0.png" height= "51%" width = "50%"/>
+
+### Objectives
+One of our objective during this project was the assessment of feasibility. We wanted to address the following problems. 
+ **Problem 1**: How many images in the training set do we need to achieve more than 95% accuracy?
+ **Problem 2**: How many epochs do we need to train on to achieve more than 95% accuracy?
+
+To tackle this, we trained our model on different training set sizes, including 24, 48, 72, 96, 120 and 144 images, while keeping the test size constant at 36 images. For each of this six training set sizes, we trained the model on varying epoch numbers of 10, 75, 150, 200 and 300. 
+
+To compare the results, we selected two distinct versions of data set for each training size. These versions were created by using the random state seed 42 and 101 from the total pool of 180 images. 
+
+**Results and conclusions**: We tested our results on the test data set of 36 images. We concluded that it was enough to train the model with 120 images on 150 epochs to get accuracy of up to 95%. 
+
 
 ---
 
@@ -26,7 +38,7 @@ The following is a test image with the total count of 2006 eggs and the predicte
 
 https://github.com/devision2023/Summer-Research-
 
-## CEO
+## Advisor
 Dr. Peter Wolenski
 
 wolenski@math.lsu.edu
